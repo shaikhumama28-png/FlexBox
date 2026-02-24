@@ -1,42 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
-     font-family: "Poppins", sans-serif;
-     font-weight: 600;
-     font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
-main{
+
+main {
     /* padding: 10px 25px; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.navbar{
+
+.navbar {
     padding: 20px 30px;
     display: flex;
     justify-content: space-between;
     background-color: aliceblue;
 }
-.logo{
+
+.logo {
     display: flex;
-    gap: 15px;
-    padding: 25px 0px;
+    gap: 25px;
+    padding: 15px 0px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
 }
 
-ul{
+ul {
     display: flex;
     list-style-type: none;
-    gap:15px;
+    gap: 15px;
 }
-ul li:hover{
+
+ul li:hover {
     text-decoration: underline;
     cursor: pointer;
     color: black;
 }
-.nav-option{
+
+.nav-option {
     color: gray;
     display: flex;
     gap: 15px;
@@ -44,155 +50,161 @@ ul li:hover{
     font-weight: bolder;
     font-size: 20px;
 }
-.buttons{
-    display:flex;
-    gap:15px;
 
-    
+.buttons {
+    display: flex;
+    gap: 20px;
+
+
 }
-.login,.join-now{
-    padding: 15px;
+
+.login,
+.join-now {
+    padding: 20px;
     border: none;
     border-radius: 12px;
     border: 2px solid black;
 
 }
-.join-now{
+
+.join-now {
     background-color: black;
     color: white;
 
 }
-.login:hover{
+
+.login:hover {
     background-color: black;
     color: white;
 }
-.real-project{
+
+.real-project {
     margin: 60px 0px;
     padding: 10px 0px;
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
 }
-.secound-text h2{
+
+.secound-text h2 {
     font-weight: bold;
     font-size: 30px;
 
 }
-.secound-text p{
-    font-size: lighter ;
+
+.secound-text p {
+    font-size: lighter;
     font-weight: 12px;
     color: gray;
 }
 
-.secound-cards{
+.secound-cards {
     display: flex;
-    gap:20px;
+    gap: 20px;
 }
 
-.secound-card{
+.secound-card {
     margin: 20px 0px;
     padding: 20px;
     border-radius: 16px;
     box-shadow: 5px 3px 5px gray;
     display: flex;
     flex-direction: column;
-    gap:12px
+    gap: 12px
 }
 
-.secound-card > h4{
+.secound-card>h4 {
     font-size: 20px;
-    font-weight:bold;
+    font-weight: bold;
 }
-.secound-card > p{
+
+.secound-card>p {
     font-size: 15px;
     font-weight: lighter;
     color: gray;
 }
 
-.pricings{
+.pricings {
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
 }
 
-.pricing-plan h3{
+.pricing-plan h3 {
     font-size: 20px;
     font-weight: bold;
 
 }
-.pricing-plan p{
+
+.pricing-plan p {
     font-size: 15px;
     font-weight: lighter;
     color: gray;
 }
 
-.pricing-cards{
+.pricing-cards {
     display: flex;
     gap: 20px;
 }
 
-.pricing-card{
-    margin: 20px 0px;
+.pricing-card {
+    margin: 15px 0px;
     padding: 20px;
     /* border:2px solid black; */
     border-radius: 16px;
     display: flex;
     flex-direction: column;
-    gap:12px
+    gap: 12px
 }
 
-.pricing-cards div:nth-child(2){
-    border:3px solid black
+.pricing-cards div:nth-child(2) {
+    border: 3px solid black
 }
-.pricing-cards div:nth-child(2) button{
+
+.pricing-cards div:nth-child(2) button {
     background-color: black;
     color: white;
 }
-.pricing-cards div:nth-child(2) button:hover{
+
+.pricing-cards div:nth-child(2) button:hover {
     background-color: gray;
 }
 
-.pricing-card h4{
+.pricing-card h4 {
     font-size: 20px;
     font-weight: bold;
 }
 
-.pricing-card >p{
+.pricing-card>p {
     font-size: 20px;
     font-weight: bold;
-    
+
 }
 
-.pricing-card div{
+.pricing-card div {
     display: flex;
     flex-direction: column;
-    gap:12px;
+    gap: 11px;
     color: gray;
 }
 
-.pricing-card button{
+.pricing-card button {
     width: fit-content;
     padding: 10px 20px;
     background-color: white;
     border-radius: 10px;
 
-    
+
 }
 
-.pricing-card button:hover{
+.pricing-card button:hover {
     background-color: black;
     color: white;
 }
 
-footer .frist-class{
-    font-size: 20px;
+footer .frist-class {
+    font-size: 15px;
     font-weight: bold;
     display: flex;
-    gap:20px;
+    gap: 15px;
 }
-
-
-
-
-
- 

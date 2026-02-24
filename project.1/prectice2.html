@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Files</title>
+</head>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+    }
+
+    header{
+        min-height: 400px;
+        position: relative;
+
+    }
+    div{
+        display: flex;
+        gap:50px;
+        justify-content: center;
+       margin-top: 30px;
+    }
+
+    .section-1,.section-2{
+        
+        height: 400px;
+        width: 400px;
+        background-color: crimson;
+    }
+    nav{
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        position: sticky;
+        top: 0px;
+    }
+    main{
+        height: 100vh;
+
+    }
+    .fix-contener{
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        background-color: brown;
+        bottom: 10px;
+        right: 10px;
+        position: fixed;
+    }
+    footer{
+        height: 100px;
+        width: 100%;
+        background-color: black;
+    }
+</style>
+<body>
+    <header>
+
+        <nav></nav>
+        <div>
+         <div class="section-1"></div>
+         <div class="section-2"></div>
+        </div>
+    </header>
+    <main>
+        <div class="fix-contener"></div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

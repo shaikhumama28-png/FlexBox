@@ -1,115 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewpoint" content="width=device-width ,initial-scale=1.0">
-    <title>CSS FLASH BOX PROJECT </title>
-    <link rel="stylesheet" href="home.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flexbox Landing Page Project</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="home.css" />
 </head>
+
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                CollegeHub
-            </div>
-            <ul class="nav-option">
-                <li> Feacher</li>
-                <li>Courses</li>
-                <li>Pricing</li>
-            </ul>
-            <div class="buttons">
-                <button class="login">Login</button>
-                <button class="join-now">Join Now</button>
-            </div>
 
+  <!-- Navbar -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="brand">
+        <span class="logo">⚡</span>
+        <h1 class="brand-name">CollegeHub</h1>
+      </div>
 
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
 
-        </nav>
-    </header>
-    <main>
-        <section>
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="#">Login</a>
+        <a class="btn btn-primary" href="#">Join Now</a>
+      </div>
+    </nav>
+  </header>
 
-        </section>
-        <section class="real-project">
-            <div class="secound-text">
-                <h2>Why Students Love this Course</h2>
-                <p>Real project + clean structure+ modern styling</p>
-            </div>
-            <div class="secound-cards">
-                <div class="secound-card">
-                    <h4>Flexbox Layouts</h4>
-                    <p> Bulid navbars hero sections and cards like real wibsites.</p>
-                </div>
-                <div class="secound-card">
-                    <h4>Modern UI Styling</h4>
-                    <p> use spacing shadow gradints,and fonts correctly.</p>
-                </div>
-                <div class="secound-card">
-                    <h4>Hand-on Projects</h4>
-                    <p> Learn by building ,not just watching.</p>
-                </div>
-            </div>
+  <!-- Hero Section -->
+  <main>
 
+    <section class="hero">
+      <div class="hero-content">
+        <p class="badge">Built with HTML + CSS Flexbox</p>
+        <h2 class="hero-title">
+          Learn Frontend the <span class="highlight">Modern</span> Way
+        </h2>
+        <p class="hero-desc">
+          A clean layout project using Flexbox, backgrounds, fonts, shadows,
+          spacing and hover effects — exactly like real websites.
+        </p>
 
-        </section>
-        <section>
-            
-        </section>
-        <section class="pricings">
-         <div class="pricing-plan">
-            <h3>
-                Pricing Plans
-            </h3>
-            <p>Simple plane for every student</p>
-         </div>
-         <div class="pricing-cards">
-            <div class="pricing-card">
-                <h4>starter</h4>
-                <p>₹0</p>
-                <div>
-                    <p>✅ HTML Notes</p>
-                    <p>✅ CSS Basics</p>
-                    <p>❌ Projects Reviews</p>
-
-                </div>
-                <button>choose</button>
-            </div>
-            <div class="pricing-card">
-                 <h4>starter</h4>
-                <p>₹0</p>
-                <div>
-                    <p>✅ HTML Notes</p>
-                    <p>✅ CSS Basics</p>
-                    <p>❌ Projects Reviews</p>
-
-                </div>
-                <button>choose</button>
-            </div>
-            <div class="pricing-card">
-                 <h4>starter</h4>
-                <p>₹0</p>
-                <div>
-                   <p>✅ HTML Notes</p>
-                    <p>✅ CSS Basics</p>
-                    <p>❌ Projects Reviews</p>
-
-                </div>
-                <button>choose</button>
-            </div>
-         </div>
-        </section>
-    </main>
-    <footer>
-        <div class="first-class">
-            CSS FlexBox
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#courses">Explore Courses</a>
+          <a class="btn btn-ghost" href="#features">See Features</a>
         </div>
-        <div class="secound-class">
-            <ul>
-                <li><a href="#"></a>Privacy</li>
-                <li><a href="#"></a>Terms</li>
-                <li><a href="#"></a>Support</li>
-            </ul>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <h3>150+</h3>
+            <p>Students</p>
+          </div>
+          <div class="stat">
+            <h3>20+</h3>
+            <p>Projects</p>
+          </div>
+          <div class="stat">
+            <h3>4.9⭐</h3>
+            <p>Rating</p>
+          </div>
         </div>
-        
-    </footer>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?q=80&w=1200&auto=format&fit=crop"
+          alt="Learning frontend"
+        />
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="features">
+      <div class="section-head">
+        <h2>Why Students Love This Course</h2>
+        <p>Real projects + clean structure + modern styling</p>
+      </div>
+
+      <div class="features">
+        <div class="feature-card">
+          <h3>Flexbox Layouts</h3>
+          <p>Build navbars, hero sections, and cards like real websites.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Modern UI Styling</h3>
+          <p>Use spacing, shadows, gradients, and fonts correctly.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Hands-on Projects</h3>
+          <p>Learn by building, not just watching.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses -->
+    <section class="section" id="courses">
+      <div class="section-head">
+        <h2>Popular Courses</h2>
+        <p>Choose one and start your journey</p>
+      </div>
+
+      <div class="courses">
+        <article class="course-card">
+          <img
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop"
+            alt="HTML Course"
+          />
+          <div class="course-body">
+            <h3>HTML Foundations</h3>
+            <p>Semantic HTML + Forms + Best Practices</p>
+            <a href="#" class="btn btn-primary small">Start</a>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <img
+            src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop"
+            alt="CSS Course"
+          />
+          <div class="course-body">
+            <h3>CSS Mastery</h3>
+            <p>Flexbox + Box Model + Backgrounds + UI</p>
+            <a href="#" class="btn btn-primary small">Start</a>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <img
+            src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop"
+            alt="JavaScript Course"
+          />
+          <div class="course-body">
+            <h3>JavaScript Basics</h3>
+            <p>Logic + DOM + Events + Async concepts</p>
+            <a href="#" class="btn btn-primary small">Start</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Pricing (List styling included) -->
+    <section class="section" id="pricing">
+      <div class="section-head">
+        <h2>Pricing Plans</h2>
+        <p>Simple plans for every student</p>
+      </div>
+
+      <div class="pricing">
+        <div class="price-card">
+          <h3>Starter</h3>
+          <p class="price">₹0</p>
+          <ul class="plan-list">
+            <li>✅ HTML Notes</li>
+            <li>✅ CSS Basics</li>
+            <li>❌ Projects Review</li>
+          </ul>
+          <a class="btn btn-ghost" href="#">Choose</a>
+        </div>
+
+        <div class="price-card featured">
+          <h3>Pro</h3>
+          <p class="price">₹499</p>
+          <ul class="plan-list">
+            <li>✅ Full CSS + Flexbox</li>
+            <li>✅ Weekly Assignments</li>
+            <li>✅ Project Review</li>
+          </ul>
+          <a class="btn btn-primary" href="#">Choose</a>
+        </div>
+
+        <div class="price-card">
+          <h3>Ultimate</h3>
+          <p class="price">₹999</p>
+          <ul class="plan-list">
+            <li>✅ Full Frontend</li>
+            <li>✅ Mock Interviews</li>
+            <li>✅ Portfolio Building</li>
+          </ul>
+          <a class="btn btn-ghost" href="#">Choose</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ✅ Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© 2026 CollegeHub. Built with Flexbox 💙</p>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Support</a>
+      </div>
+    </div>
+  </footer>
+
 </body>
+</html>

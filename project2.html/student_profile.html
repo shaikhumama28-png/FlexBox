@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-weight: 600;
+            font-style: normal;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        main {
+            background-color: gray;
+        }
+
+        .navbar {
+            padding: 30px 20px;
+            text-align: center;
+            background-color: black;
+            color: antiquewhite;
+
+        }
+
+        .navbar h1 {
+            margin-bottom: 10px;
+
+        }
+
+        .navbar p {
+            font-size: 20px;
+        }
+
+        .box-contener {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 100px 50px;
+            flex-wrap: wrap;
+        }
+
+        .box-1 {
+            background-color: white;
+            width: 300px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px black;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .box-1:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 18px 35px black;
+        }
+
+        .box-1 h4 {
+            margin-bottom: 50px;
+            color: black;
+        }
+
+        .box-1 p {
+            color: gray;
+        }
+
+        .box-1 button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .box-1 button:hover {
+            background-color: gray;
+        }
+
+        footer {
+            background-color: black;
+            color: antiquewhite;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>
+                Student Profile
+            </h1>
+            <p>
+                Practice Website using CSS Flexbox & Transitions
+            </p>
+        </nav>
+    </header>
+    <main>
+        <div class="box-contener">
+            <div class="box-1">
+                <h3>
+                    Shaikh Umama
+                </h3>
+                <p>
+                    Frontend Developer Learning HTML and CSS
+                </p>
+                <button>view profile</button>
+            </div>
+            <div class="box-1">
+                <h3>
+                    Shaikh Umama
+                </h3>
+                <p>
+                    Frontend Developer Learning HTML and CSS
+                </p>
+                <button>view profile</button>
+            </div>
+            <div class="box-1">
+                <h3>
+                    Shaikh Umama
+                </h3>
+                <p>
+                    Frontend Developer Learning HTML and CSS
+                </p>
+                <button>view profile</button>
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        © 2026 Student Practice Project
+    </footer>
+
+</body>
+
+</html>

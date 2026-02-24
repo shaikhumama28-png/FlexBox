@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .box-contener{
+            width: 80vw;
+            height: 90vh;
+            background-color: brown;
+            position: relative;
+        
+        }
+        .box-1{
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            animation: AnimationX 4s linear infinite alternate , AnimationY 1s ease-in infinite alternate;
+            
+
+        }
+        .box-2{
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            animation: AnimationX 4s linear infinite alternate-reverse , AnimationY 1s ease-in infinite alternate-reverse;
+
+        }
+        @keyframes AnimationX {
+            from{
+                
+                left: 0;
+                
+                
+
+            }
+            to{
+                
+                left:calc(100% - 200px);
+                
+
+            }            
+        }
+
+        @keyframes AnimationY {
+            from{
+                top: 0;
+            }
+            to{
+                top:calc(100% - 200px);
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box-contener">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+    </div>
+</body>
+</html>
